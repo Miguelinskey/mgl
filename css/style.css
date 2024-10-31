@@ -1,0 +1,44 @@
+@import 'reset.css';
+
+html{
+    font-size: 150%;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
+    "Fira Sans", "Droid Sans", "Helvetica Neue", 
+    sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; /* for Firefox on MacOS */
+    text-rendering: optimizeLegibility;
+}
+
+.site--main{
+    max-width: 40ch;
+    /*margin: 0 auto;*/
+    padding-left: 2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;s
+}
+
+.site--main .site--main--title{
+    font-size: 1rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.site--main--colophon{
+    font-size: 0.75rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+    color: rgba(0,0,0,1);
+}
+
+.site--header{
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    font-size: 0.75rem;
+    text-align: right;
+}
